@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Build Jigsaw static site
+## Usage: build
+## Example: ddev build
+
+vendor/bin/jigsaw build
