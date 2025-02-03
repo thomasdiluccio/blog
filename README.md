@@ -16,4 +16,8 @@ It also uses **[DDEV](https://ddev.readthedocs.io/)** for local development.
 ## 🚀 Deployment
 Every time a new blog post is added (via Markdown) and committed to the repository, the site is automatically rebuilt and deployed. This process ensures that new content is published seamlessly with minimal effort.
 
+```
+npm run production
+php vendor/bin/jigsaw build
+```
 Enjoy the stories! ✍️
