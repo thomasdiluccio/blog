@@ -20,4 +20,5 @@ Every time a new blog post is added (via Markdown) and committed to the reposito
 npm run production
 php vendor/bin/jigsaw build
 ```
+
 Enjoy the stories! ✍️

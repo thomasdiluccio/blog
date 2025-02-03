@@ -5,3 +5,14 @@
 .blog-single .content p {
     @apply mt-6 text-xl/8
 }
+
+.blog-single .content a,
+.blog-single .content a:visited {
+    @apply text-indigo-500
+}
+
+.blog-single .content a:hover,
+.blog-single .content a:active {
+    text-decoration: underline;
+}
+
