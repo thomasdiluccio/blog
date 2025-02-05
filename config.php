@@ -9,6 +9,7 @@ return [
         'posts' => [
             'path' => '{date|Y/m/d}/{filename}',
             'sort' => ['featured', '-date'],
+            'perPage' => 9,
         ],
         'pages' => [
             'path' => '{filename}',
