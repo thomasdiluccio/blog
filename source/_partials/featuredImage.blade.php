@@ -6,7 +6,7 @@
 
         @if ($page->featuredImageAlt)
             <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
-                <p class="text-white text-sm">{{ $page->featuredImageAlt }}</p>
+                <p class="text-white text-sm">{!! $page->featuredImageAlt !!}</p>
             </div>
         @endif
     </div>

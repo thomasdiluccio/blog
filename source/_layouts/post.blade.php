@@ -8,18 +8,10 @@
         <p class="text-base/7 font-semibold text-indigo-500">{{ $page->author }} • {{ date('F j, Y', $page->date) }}</p>
         <div class="content">
             @if ($page->vimeo)
-                <div
-                    class="mt-10"
-                    style="padding:56.25% 0 0 0;position:relative;"
-                >
-                    <iframe
-                        src="https://player.vimeo.com/video/{{ $page->vimeo }}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                        frameborder="0"
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                        style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                    ></iframe>
-                </div>
-                <script src="https://player.vimeo.com/api/player.js"></script>
+                <x-video-vimeo id="{{ $page->vimeo }}" />
+            @endif
+            @if ($page->youtube)
+                <x-video-youtube id="{{ $page->youtube }}" />
             @endif
             @yield('content')
         </div>
