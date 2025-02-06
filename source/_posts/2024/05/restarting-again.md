@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2024-05-10
 section: content
-featuredImage: /assets/images/posts/2024-05-10.png
+featuredImage: 2024-05-10.png
 featuredImageAlt: Midjourney - restarting again, abstract, polygon, mathematical, eerie, pure, minimalist, joyful, hopeful
 youtube: 2YaEtaXYVtI
 excerpt: |

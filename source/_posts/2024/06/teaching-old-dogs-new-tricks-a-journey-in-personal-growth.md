@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2024-06-24
 section: content
-featuredImage: /assets/images/posts/2024-06-24.png
+featuredImage: 2024-06-24.png
 featuredImageAlt: Midjourney - learning new things, personal growth, freebom, abstract, polygon, mathematical, eerie, pure, minimalist, joyful, hopeful, pop art, neon
 excerpt: |
     Learning is like riding a bike—once you master it, you can always get back on. Growth has driven every career move I've made, and when learning stops, it's time to move on. Whether it's switching paths, refining skills, or embracing small habits like puzzles and reading, every step matters. Personal growth isn't a luxury; it's a necessity. One step at a time, toward a better future.

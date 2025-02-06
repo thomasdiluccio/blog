@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2021-01-07
 section: content
-featuredImage: /assets/images/posts/2021-01-07.jpg
+featuredImage: 2021-01-07.jpg
 featuredImageAlt: <a href="https://unsplash.com/@korpa" target="_blank" rel="nofollow noopener noreferrer">Jr Korpa on Unsplash</a>
 excerpt: |
     After a long winter, it's time to rise again. I struggled with imposter syndrome, feeling stuck between design and code. Then a friend called me a non-visual designer—and everything clicked. I shape concepts, not just interfaces. Words, ideas, and experiences are my material. With this clarity, I'm ready to create, to contribute, and to bring beauty into the world.

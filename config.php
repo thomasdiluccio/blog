@@ -15,4 +15,11 @@ return [
             'path' => '{filename}',
         ],
     ],
+    'thumbnail' => function ($page, int $size) {
+        return '/thumbnails/' . str_replace(
+            ['.png', '.jpg', '.svg'],
+            ["@{$size}.png", "@{$size}.jpg", "@{$size}.svg"],
+            $page->featuredImage
+        );
+    }
 ];

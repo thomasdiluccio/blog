@@ -5,8 +5,8 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2019-02-19
 section: content
-featuredImage: /assets/images/posts/2019-02-19.png
-featuredImageAlt: 
+featuredImage: 2019-02-19.png
+featuredImageAlt:
 excerpt: |
     Et si le design pouvait réparer le monde ? Face à l'épuisement des ressources et aux effondrements en cours, je questionne notre manière de créer. Ce blog explore comment concevoir des objets et services qui ne se contentent pas de limiter leur impact, mais participent activement à la reconstruction du futur.
 ---

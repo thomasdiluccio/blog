@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2021-01-28
 section: content
-featuredImage: /assets/images/posts/2021-01-28.jpg
+featuredImage: 2021-01-28.jpg
 featuredImageAlt: <a href="https://unsplash.com/@dnevozhai" target="_blank" rel="nofollow noopener noreferrer">Denys Nevozhai on Unsplash</a>
 youtube: Jp9pyMqnBzk
 excerpt: |

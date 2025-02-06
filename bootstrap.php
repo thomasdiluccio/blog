@@ -17,5 +17,10 @@ use TightenCo\Jigsaw\Jigsaw;
  */
 
  $events->afterBuild(function (Jigsaw $jigsaw) {
-    copy('source/assets/Thomas-di-luccio_product-advocacy-leader.pdf', $jigsaw->getDestinationPath() . '/assets/Thomas-di-luccio_product-advocacy-leader.pdf');
+    copy(
+        'source/assets/Thomas-di-luccio_product-advocacy-leader.pdf',
+        $jigsaw->getDestinationPath() . '/assets/Thomas-di-luccio_product-advocacy-leader.pdf'
+    );
+
+    exec('cp -r build_images/* ' . $jigsaw->getDestinationPath() . '/');
 });

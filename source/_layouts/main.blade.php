@@ -14,7 +14,7 @@
             @include('_layouts.nav')
         </div>
         <div class="container mx-auto sm:px-6 lg:px-8 mt-6 text-gray-900 dark:text-gray-100 ">
-           <div class="text-balance text-3xl font-semibold tracking-tight sm:text-4xl text-center">
+            <div class="text-balance text-3xl font-semibold tracking-tight sm:text-4xl text-center">
                 Story maker &gt; Toward desirable futures
             </div>
             <div class="text-balance text-2xl tracking-tight sm:text-3xl text-center">

@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2021-01-21
 section: content
-featuredImage: /assets/images/posts/2021-01-21.jpg
+featuredImage: 2021-01-21.jpg
 featuredImageAlt: <a href="https://unsplash.com/photos/gh1UZkWzw9Q" target="_blank" rel="nofollow noopener noreferrer">Evelyn Mostrom on Unsplash</a>
 youtube: 5QMlIjSnt_E
 excerpt: |

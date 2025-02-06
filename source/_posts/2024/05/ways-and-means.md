@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2024-05-24
 section: content
-featuredImage: /assets/images/posts/2024-05-24.png
+featuredImage: 2024-05-24.png
 featuredImageAlt: Midjourney - Ways and Means", abstract, polygon, mathematical, eerie, pure, minimalist, joyful, hopeful, pop art, neon
 excerpt: |
     I've always been drawn to the intersection of strategy, tools, and creation. From political campaigns to product advocacy, my journey has been about mastering the craft and shaping the means to build something meaningful. Now, this blog will be my lab—a space to experiment, build, and tell stories. One step at a time, toward product leadership and desirable futures.

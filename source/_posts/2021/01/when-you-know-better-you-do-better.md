@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2021-01-15
 section: content
-featuredImage: /assets/images/posts/2021-01-15.jpg
+featuredImage: 2021-01-15.jpg
 featuredImageAlt: <a href="https://unsplash.com/@christopher__burns" target="_blank" rel="nofollow noopener noreferrer">Christopher Burns on Unsplash</a>
 excerpt: |
     I've always been haunted by past mistakes, but learning to embrace failure as a path to growth has been transformative. When you know better, you do better. Maya Angelou's words struck me—failure isn't just acceptable, it's necessary. Now, my focus is on knowledge, empowerment, and legacy. What will I create to help others navigate complexity? It's time to do better.

@@ -21,4 +21,11 @@ npm run production
 php vendor/bin/jigsaw build
 ```
 
+Note the following mounts should be writable:
+```
+build_local
+build_production
+build_images
+```
+
 Enjoy the stories! ✍️

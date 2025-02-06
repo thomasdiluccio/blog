@@ -5,7 +5,7 @@ author: Thomas di Luccio
 authorTagline: Story maker
 date: 2024-05-30
 section: content
-featuredImage: /assets/images/posts/2024-05-30.png
+featuredImage: 2024-05-30.png
 featuredImageAlt: "Midjourney prompt - \"WordPress next, and beyond: breaking the technical enclosure\", abstract, polygon, mathematical, eerie, pure, minimalist, joyful, hopeful, pop art, neon"
 excerpt: |
     The tools we choose shape our possibilities. WordPress was the obvious choice for my blog—until it became a burden, pulling focus away from what mattered: writing. Now, it's time for change. A minimalist, resilient static blog will free me to create, not maintain. This is about reclaiming time, embracing better tools, and designing a future where tech empowers, not limits.
