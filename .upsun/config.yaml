@@ -28,10 +28,10 @@ applications:
     mounts:
       "/build_images":
         source: instance
-        source_path: "/build_images"
+        source_path: "build_images"
       "/build_production":
         source: instance
-        source_path: "/build_production"
+        source_path: "build_production"
 
     # The web key configures the web server running in front of your app.
     # More information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#web
