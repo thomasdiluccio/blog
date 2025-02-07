@@ -34,7 +34,7 @@ applications:
         source_path: "build_production"
       "/source/assets/build":
         source: instance
-        source_path: "/source/assets/build"
+        source_path: "source/assets/build"
 
     # The web key configures the web server running in front of your app.
     # More information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#web
