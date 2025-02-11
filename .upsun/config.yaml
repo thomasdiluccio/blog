@@ -25,16 +25,16 @@ applications:
 
     # Mounts define directories that are writable after the build is complete.
     # More information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#mounts
-    mounts:
-      "/build_images":
-        source: instance
-        source_path: "build_images"
-      "/build_production":
-        source: instance
-        source_path: "build_production"
-      "/source/assets/build":
-        source: instance
-        source_path: "source/assets/build"
+    # mounts:
+    #   "/build_images":
+    #     source: instance
+    #     source_path: "build_images"
+    #   "/build_production":
+    #     source: instance
+    #     source_path: "build_production"
+    #   "/source/assets/build":
+    #     source: instance
+    #     source_path: "source/assets/build"
 
     # The web key configures the web server running in front of your app.
     # More information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#web
@@ -111,6 +111,12 @@ applications:
         hash -r
         npm i
 
+        mkdir -p build_production
+        mkdir -p build_images
+        mkdir -p build_local
+
+        npm run prod
+
       # The deploy hook is run after the app container has been started, but before it has started accepting requests.
       # More information: https://docs.upsun.com/create-apps/hooks/hooks-comparison.html#deploy-hook
       deploy: |
@@ -118,8 +124,6 @@ applications:
 
         export APP_URL=`echo $PLATFORM_ROUTES | base64 --decode | jq -r 'to_entries[] | select(.value.primary==true) | .key'`
         export IS_PRODUCTION=true
-
-        npm run prod
 
       # The post_deploy hook is run after the app container has been started and after it has started accepting requests.
       # More information: https://docs.upsun.com/create-apps/hooks/hooks-comparison.html#deploy-hook
