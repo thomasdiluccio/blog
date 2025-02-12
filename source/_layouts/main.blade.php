@@ -6,7 +6,7 @@
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" media="screen">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body class="text-gray-900 font-sans antialiased bg-white dark:bg-black dark:text-gray-400">
@@ -27,7 +27,7 @@
 
         <footer class="">
             <div class="mx-auto max-w-7xl overflow-hidden px-6 py-10 sm:py-14 lg:px-8">
-                <p class="mt-10 text-center text-sm/6 text-gray-400 dark:text-gray-600">&copy; 2019 - {{ date('Y')}} Thomas di Luccio. All rights reserved.</p>
+                <p class="mt-10 text-center text-sm/6 text-gray-800 dark:text-gray-200">&copy; 2019 - {{ date('Y')}} Thomas di Luccio. All rights reserved.</p>
             </div>
         </footer>
     </body>

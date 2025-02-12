@@ -2,7 +2,10 @@
     <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl ">
         @if ($post->featuredImage)
             <div class="relative w-full">
-                <a href="{{ $post->getUrl() }}">
+                <a
+                    href="{{ $post->getUrl() }}"
+                    aria-label="Read the article: {{ $post->title }}"
+                >
                     <img
                         src="{{ $post->thumbnail($thumbnailSize) }}"
                         alt="{{ $page->featuredImageAlt }}"
@@ -21,7 +24,10 @@
             </div>
             <div class="group relative">
                 <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 dark:text-gray-100 group-hover:text-indigo-500">
-                    <a href="{{ $post->getUrl() }}">
+                    <a
+                        href="{{ $post->getUrl() }}"
+                        aria-label="Read the article: {{ $post->title }}"
+                    >
                         <span class="absolute inset-0"></span>
                         {{ $post->title }}
                     </a>
