@@ -1,6 +1,7 @@
 const mix = require('laravel-mix');
 require('laravel-mix-jigsaw');
 require('laravel-mix-image-multisizer')
+require('laravel-mix-webp-watched');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
@@ -29,5 +30,10 @@ mix
         thumbnailsSizes: [450, 800, 1500],
         thumbnailsSuffix: '@',
         thumbnailsOnly: true
+    })
+    .webpWatched('build_images/thumbnails', 'build_images/thumbnails', {
+        imageminWebpOptions: {
+        quality: 50,
+        }
     })
 ;
