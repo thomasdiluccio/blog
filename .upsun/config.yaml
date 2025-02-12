@@ -1,12 +1,9 @@
 # Complete list of all available properties: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html
 applications:
   blog-static:
-    # Application source code directory
     source:
       root: "/"
 
-    # The runtime the application uses.
-    # Complete list of available runtimes: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#types
     type: "php:8.4"
 
     # Choose which container profile (ratio CPU+RAM) your app will use. Default value comes from the image itself.
@@ -25,16 +22,7 @@ applications:
 
     # Mounts define directories that are writable after the build is complete.
     # More information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#mounts
-    mounts:
-      "/build_images":
-        source: instance
-        source_path: "build_images"
-      "/build_production":
-        source: instance
-        source_path: "build_production"
-      "/app/source/assets/build":
-        source: instance
-        source_path: "app/source/assets/build"
+
 
     # The web key configures the web server running in front of your app.
     # More information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#web
@@ -57,8 +45,9 @@ applications:
       # More information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#locations
       locations:
         "/":
-          passthru: "/index.php"
           root: "build_production"
+          index:
+            - index.html
           
         
 
@@ -111,17 +100,18 @@ applications:
         hash -r
         npm i
 
-        export APP_URL=`echo $PLATFORM_ROUTES | base64 --decode | jq -r 'to_entries[] | select(.value.primary==true) | .key'`
+        mkdir -p build_production
+        mkdir -p build_images
+        mkdir -p build_local
+
         export IS_PRODUCTION=true
 
         npm run prod
-        php vendor/bin/jigsaw build
-        
+
       # The deploy hook is run after the app container has been started, but before it has started accepting requests.
       # More information: https://docs.upsun.com/create-apps/hooks/hooks-comparison.html#deploy-hook
-      deploy: |
-        set -eux
-        
+      # deploy: |
+      #   set -eux
 
       # The post_deploy hook is run after the app container has been started and after it has started accepting requests.
       # More information: https://docs.upsun.com/create-apps/hooks/hooks-comparison.html#deploy-hook
