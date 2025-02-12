@@ -48,6 +48,8 @@ applications:
           root: "build_production"
           index:
             - index.html
+          headers:
+            Accept-Encoding: gzip, compress
           
         
 
