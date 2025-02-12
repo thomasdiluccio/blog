@@ -48,6 +48,8 @@ applications:
           root: "build_production"
           index:
             - index.html
+          headers:
+            Accept-Encoding: gzip, compress
           
         
 
@@ -147,6 +149,8 @@ routes:
   "https://{default}/":
     type: upstream
     upstream: "blog-static:http"
+    cache:
+      enabled: true
   # A basic redirect definition
   # More information: https://docs.upsun.com/define-routes.html#basic-redirect-definition
   "https://www.{default}":
