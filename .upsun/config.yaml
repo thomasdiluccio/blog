@@ -104,11 +104,15 @@ applications:
 
         mkdir -p build_production
         mkdir -p build_images
-        mkdir -p build_local
+
+        rm -rf build_production/*
+        rm -rf build_images/*
 
         export IS_PRODUCTION=true
 
         npm run prod
+
+        cp -r build_images/* build_production/
 
       # The deploy hook is run after the app container has been started, but before it has started accepting requests.
       # More information: https://docs.upsun.com/create-apps/hooks/hooks-comparison.html#deploy-hook
