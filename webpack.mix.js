@@ -33,7 +33,7 @@ mix
     })
     .webpWatched('build_images/thumbnails', 'build_images/thumbnails', {
         imageminWebpOptions: {
-        quality: 50,
+            quality: 50,
         }
     })
 ;
