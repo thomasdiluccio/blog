@@ -1,5 +1,5 @@
 <a href="{{ $baseUrl }}{{ $next }}"
-    class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gray-500 dark:text-gray-200 hover:border-indigo-500 hover:text-indigo-500">
+    class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gray-500 dark:text-gray-200 hover:border-indigo-700 hover:text-indigo-700 dark:hover:border-indigo-300 dark:hover:text-indigo-300">
     Next
     <svg class="ml-3 size-5 " viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
         <path fill-rule="evenodd"

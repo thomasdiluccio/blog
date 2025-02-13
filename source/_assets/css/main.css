@@ -8,12 +8,13 @@
 
 .blog-single .content a,
 .blog-single .content a:visited {
-    @apply text-indigo-500;
+    @apply text-indigo-700 dark:text-indigo-300 underline;
 }
 
 .blog-single .content a:hover,
 .blog-single .content a:active {
-    text-decoration: underline;
+    text-decoration: none;
+    @apply bg-indigo-700 text-white dark:bg-indigo-300 dark:text-gray-900
 }
 
 /* mobile navigation */

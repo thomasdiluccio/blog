@@ -23,7 +23,7 @@
                 </time>
             </div>
             <div class="group relative">
-                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 dark:text-gray-100 group-hover:text-indigo-500">
+                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 dark:text-gray-100 group-hover:text-indigo-700 dark:group-hover:text-indigo-300">
                     <a
                         href="{{ $post->getUrl() }}"
                         aria-label="Read the article: {{ $post->title }}"
