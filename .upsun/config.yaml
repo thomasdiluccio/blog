@@ -49,7 +49,7 @@ applications:
           index:
             - index.html
           headers:
-            Accept-Encoding: gzip, compress
+            Accept-Encoding: br
           
         
 
