@@ -49,6 +49,8 @@ applications:
           index:
             - index.html
           expires: 24h
+          headers:
+            Cache-Control: max-age=31536000
           
         
 
