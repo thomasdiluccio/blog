@@ -48,8 +48,7 @@ applications:
           root: "build_production"
           index:
             - index.html
-          headers:
-            Accept-Encoding: br
+          expires: 24h
           
         
 
