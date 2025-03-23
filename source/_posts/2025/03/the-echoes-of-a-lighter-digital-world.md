@@ -15,9 +15,14 @@ Sometimes, we forget how easy it is to get caught up in the rush of technology. 
 
 This is the first post I write on my new blog. My old WordPress setup was always running, always there consuming so much resources, just in case. It was like feeding a machine that never slept, even though my needs were simple—a place to share words, stories, and a bit of myself. And I write once in a blue moon.
 
-Then, I stepped back and realized that each extra feature was another knot tied around my creativity. I traded the constant hum of a giant website for the calm of a static approach. Jigsaw, Laravel, Docker. Yes, they sound technical, but they feel lighter. They only run when I need them. 
+Then, I stepped back and realized that each extra feature was another knot tied around my creativity. I traded the constant hum of a giant website for the calm of a static approach. Jigsaw, Laravel, Docker. Yes, they sound technical, but they feel lighter. They only run when I need them.
 
-My posts are stored in Markdown, and the blog is fully static. An integration links the repository and the hosted app. One GIT push, and the static site rebuilds itself like a gentle wave returning to shore. Efforless. Simple. Minimalist.
+My posts are stored in Markdown, and the blog is fully static. An integration links the repository and the hosted app. One GIT push, and the static site rebuilds itself like a gentle wave returning to shore.
+
+The resource allocation during build being differentiated from the one allocated for serving the app
+, each part of the app lifecycle can have what it needs, no more, no less. I'm not waisting any resources.
+
+Efforless. Simple. Minimalist.
 
 At first, I worried I was simply piling on more complexity. But the more I learn, the less waste I create. It's like a balancing act: more knowledge, fewer burdens. I'm still far from pure low-tech, yet there is a quiet beauty in this new path.
 
