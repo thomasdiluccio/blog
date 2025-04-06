@@ -3,7 +3,7 @@
 return [
     'production' => env('IS_PRODUCTION', false),
     'baseUrl' => env('APP_URL'),
-    'title' => 'Story maker > Toward desirable futures',
+    'title' => 'Toward desirable futures',
     'description' => 'Thomas di Luccio\'s personal notes on building sustainable, desirable, and resilient futures.',
     'collections' => [
         'posts' => [

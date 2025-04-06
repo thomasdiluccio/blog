@@ -1,0 +1,7 @@
+name: blog-static
+php: '8.4'
+secured: true
+aliases: {  }
+services: {  }
+integrations:
+    forge: {  }

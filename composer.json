@@ -1,5 +1,8 @@
 {
     "require": {
         "tightenco/jigsaw": "^1.7"
+    },
+    "scripts": {
+        "build": "vendor/bin/jigsaw build"
     }
 }
